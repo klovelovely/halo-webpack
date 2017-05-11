@@ -1,0 +1,21 @@
+{
+  "name": "halo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Kavalon <klovelovely@live.com> (http://mar.moe)",
+  "license": "MIT",
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "chunk-manifest-webpack-plugin": "^1.1.0",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  }
+}
