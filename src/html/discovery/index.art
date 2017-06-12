@@ -1,0 +1,13 @@
+{{extend './layout.art'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'head'}}
+<link rel="stylesheet" href="../../css/discovery.css">
+{{/block}}
+
+{{block 'content'}}
+<p><img src="../../images/discovery/octocat.png" alt="octocat"></p>
+<p>This is just an awesome page.</p>
+<script></script>
+{{/block}}

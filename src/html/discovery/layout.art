@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{block 'title'}}My Site{{/block}}</title>
+
+    {{block 'head'}}
+    <link rel="stylesheet" href="main.css">
+    {{/block}}
+</head>
+<body>
+{{block 'content'}}{{/block}}
+
+<%=htmlWebpackPlugin%>
+
+<script src="<%=htmlWebpackPlugin.files.chunks['manifest'].entry %>"></script>
+<script src="<%=htmlWebpackPlugin.files.chunks['main'].entry %>"></script>
+<script src="<%=htmlWebpackPlugin.files.chunks['vendor'].entry %>"></script>
+
+</body>
+</html>

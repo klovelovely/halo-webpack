@@ -1,0 +1,12 @@
+$base-bg-color: #fff;
+$base-text-color: #404040;
+
+body {
+    background-color: $base-bg-color;
+    color: darken($base-text-color);
+    h1 {
+        background-color: $base-text-color;
+        color: darken($base-bg-color);
+        font-size: 14px;
+    }
+}
